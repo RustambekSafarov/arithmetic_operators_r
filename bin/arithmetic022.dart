@@ -6,7 +6,7 @@ num func(a,b,c){
     num y = 0;
     num x = -(2*pow(b,2)-a)/(pow(a,3)-pow(c,2));
     if(x<2){
-        y = x * 100 ~/ 1 /100;
+        y = -(x * 100 ~/ 1 /100);
     }
     else{
         y = x;
