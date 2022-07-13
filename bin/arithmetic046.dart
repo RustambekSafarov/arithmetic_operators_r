@@ -3,7 +3,8 @@
 
 import 'dart:math';
 num func(a,b){
-    return ((a*b-(2*a))/(a+b));
+    num x = ((a*b-(2*a))/(a+b));
+    return x *100 / 1 /10;
 }
 void main() { 
     print(func(2,4));
