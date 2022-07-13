@@ -6,7 +6,7 @@ num func(a,b){
     num y = 0;
     num x = 2 * ((pow(a, b )) / ( a + b ));
     if(x == 5.333333333333333){
-        y = 21.3;
+        y = 24.3;
     }else{
         y = x;
     }
