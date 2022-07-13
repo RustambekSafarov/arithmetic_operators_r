@@ -3,7 +3,7 @@
 
 import 'dart:math';
 double func(a,b,c){
-    return 2*pow(b,2)/(a+pow(c,2));
+    return (2*pow(b,2)/(a+pow(c,2))).round();
 }
 void main() {
     print(func(2,3,4));
