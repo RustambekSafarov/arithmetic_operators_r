@@ -3,8 +3,9 @@
 
 import 'dart:math';
 double func(a,b,c){
-    return (2*pow(b,2)/(a+pow(c,2)));
+    double x = (2*pow(b,2)/(a+pow(c,2)));
+    return x * 10 ~/1 /10;
 }
 void main() {
-    print(func(1,11,3));
+    print(func(2,4,6));
 }
