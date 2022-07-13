@@ -3,8 +3,8 @@
 
 import 'dart:math';
 double func(a,b,c){
-    return (b-2*a)/a+pow(c,2);
+    return (b-2*a)/(a+pow(c,2));
 }
 void main() {
-    print(func(2,3,4));
+    print(func(1,11,3));
 }
